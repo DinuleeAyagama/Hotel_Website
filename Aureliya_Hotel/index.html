@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurelia - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>AURELIA</h1>
+    <nav>
+      <a href="index.html"><i class="ri-home-2-fill"></i> Home</a>
+      <a href="https://www.google.com/maps?q=198%2F5+Gall+road%2C+Colombo" target="_blank"><i class="ri-map-pin-2-fill"></i> Location</a>
+      <a href="bookings.html"><i class="ri-book-open-fill"></i> Bookings</a>
+      <a href="settings.html"><i class="ri-settings-3-fill"></i> Settings</a>
+    </nav>
+  </header>
+
+  <!-- Book Now Section -->
+  <div class="booking-section">
+    <input type="date" id="check-in" placeholder="Check-in">
+    <input type="date" id="check-out" placeholder="Check-out">
+    <select id="rooms">
+      <option>Rooms</option>
+      <option>1 Room</option>
+      <option>2 Rooms</option>
+      <option>3 Rooms</option>
+    </select>
+    <select id="persons">
+      <option>Persons</option>
+      <option>1 Person</option>
+      <option>2 Persons</option>
+      <option>3 Persons</option>
+    </select>
+    <button id="book-now-button">Book Now</button>
+  </div>
+
+  <!-- Confirmation Message -->
+  <div class="confirmation-message" id="confirmation-message">
+    <p>Thank you for booking with Aurelia! We will contact you shortly.</p>
+  </div>
+
+  <div class="image-gallery">
+    <img src="https://i.pinimg.com/236x/ec/d9/fc/ecd9fc70677c91f1f9628961362e4a85.jpg" alt="Hotel Image 1">
+    <img src="https://i.pinimg.com/236x/f2/c3/04/f2c304e7e92b2295cd0d87e6847c3232.jpg" alt="Hotel Image 2">
+    <img src="https://i.pinimg.com/236x/dd/d9/1d/ddd91d547c9d4dd68e12850545cc2edb.jpg" alt="Hotel Image 3">
+    <img src="https://i.pinimg.com/236x/1a/b2/c7/1ab2c74722fc1a74d874af4071bede51.jpg" alt="Hotel Image 4">
+    <img src="https://i.pinimg.com/236x/76/6f/9e/766f9e37ba146f36aeccbd8c7e26a224.jpg" alt="Hotel Image 5">
+  </div>
+
+  <div class="services-section">
+    <div class="services-box">
+      <h2>Our Services</h2>
+      <p>At Aurelia, we are dedicated to providing an unforgettable experience. Our services include:</p>
+      <ul>
+        <li>Luxurious accommodations</li>
+        <li>Fine dining</li>
+        <li>A state-of-the-art fitness center</li>
+        <li>A serene spa</li>
+      </ul>
+      <p>We offer personalized attention to ensure your stay is comfortable and memorable. Enjoy our complimentary Wi-Fi, 24-hour concierge, and exclusive room service. Let us take care of every detail so you can relax and enjoy your time with us.</p>
+    </div>
+    <div class="services-image">
+      <img src="https://i.pinimg.com/474x/9f/88/01/9f880100ad711d2173157e9c9452ec19.jpg" alt="Service Image">
+    </div>
+  </div>
+
+  <div class="about-us-section">
+    <div class="about-us-content">
+      <div class="about-us-text">
+        <h2>About Us</h2>
+        <p>Welcome to Aurelia, where luxury meets comfort. Nestled in a prime location, our hotel is designed to offer you a tranquil retreat with easy access to local attractions. With a commitment to excellence, we provide top-notch amenities and personalized services to ensure every guest feels at home. Our dedicated team is passionate about creating memorable experiences, whether you're here for a relaxing getaway or a productive business trip. Discover the perfect blend of elegance and hospitality at Aurelia.</p>
+      </div>
+      <div class="about-us-image">
+        <img src="https://i.pinimg.com/236x/23/74/e0/2374e022b3bbe1102ad3e5eda5a65e72.jpg" alt="About Us Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="facilities-section">
+    <h2 style="text-align: center; color: #4d3c2f;">Our Facilities</h2>
+    <div class="facilities-content">
+      <div class="facilities-box">
+        <img src="https://i.pinimg.com/474x/a9/29/33/a929336b12c973b03bf627683a17a7f0.jpg" alt="Banquets Image">
+        <div>
+          <h2>Banquets</h2>
+          <p>Host your special events in style at Aurelia. Our banquet halls are elegantly designed to accommodate weddings, corporate meetings, and social gatherings. Equipped with state-of-the-art audio-visual technology and customizable layouts, we ensure every event is seamless and memorable. Our expert event planning team is here to assist with every detail, from catering to decor, making your occasion truly exceptional.</p>
+        </div>
+      </div>
+      <div class="facilities-box">
+        <div>
+          <h2>Rooms</h2>
+          <p>Experience unparalleled comfort in our thoughtfully designed rooms and suites. Each space is crafted to provide a serene and luxurious retreat, featuring modern amenities, plush bedding, and stunning views. Whether you're traveling for business or leisure, our rooms offer the perfect blend of style and functionality to make your stay unforgettable. Enjoy a restful night's sleep and wake up refreshed, ready to explore all that Aurelia has to offer.</p>
+        </div>
+        <img src="https://i.pinimg.com/236x/f2/c3/04/f2c304e7e92b2295cd0d87e6847c3232.jpg" alt="Rooms Image">
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-section">
+    <h2>Contact Us</h2>
+    <p>198/5 Gall road, Colombo.</p>
+    <p>aureliya33@hotel.lk</p>
+    <p>0812235605</p>
+    <div class="contact-buttons">
+      <a href="tel:0812235605">Call Us</a>
+      <a href="mailto:aureliya33@hotel.lk">Email Us</a>
+      <a href="https://www.google.com/maps/search/?api=1&query=198%2F5+Gall+road%2C+Colombo" target="_blank">Visit Us</a>
+    </div>
+  </div>
+
+  <!-- Footer with Social Media Buttons -->
+  <footer>
+    <div class="social-media-buttons">
+      <a href="https://www.facebook.com" target="_blank"><i class="ri-facebook-fill"></i></a>
+      <a href="https://www.instagram.com" target="_blank"><i class="ri-instagram-fill"></i></a>
+      <a href="https://www.tiktok.com" target="_blank"><i class="ri-tiktok-fill"></i></a>
+    </div>
+    <p style="margin-top: 10px; color: #4d3c2f;">Follow us on social media for updates and offers!</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

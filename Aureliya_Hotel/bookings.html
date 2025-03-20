@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurelia - Bookings</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>AURELIA</h1>
+    <nav>
+      <a href="index.html"><i class="ri-home-2-fill"></i> Home</a>
+      <a href="https://www.google.com/maps?q=198%2F5+Gall+road%2C+Colombo" target="_blank"><i class="ri-map-pin-2-fill"></i> Location</a>
+      <a href="bookings.html"><i class="ri-book-open-fill"></i> Bookings</a>
+      <a href="settings.html"><i class="ri-settings-3-fill"></i> Settings</a>
+    </nav>
+  </header>
+
+  <div class="booking-section">
+    <h2>Book Your Stay</h2>
+    <form>
+      <input type="date" id="check-in" placeholder="Check-in">
+      <input type="date" id="check-out" placeholder="Check-out">
+      <select id="rooms">
+        <option>Rooms</option>
+        <option>1 Room</option>
+        <option>2 Rooms</option>
+        <option>3 Rooms</option>
+      </select>
+      <select id="persons">
+        <option>Persons</option>
+        <option>1 Person</option>
+        <option>2 Persons</option>
+        <option>3 Persons</option>
+      </select>
+      <button id="book-now-button">Book Now</button>
+    </form>
+  </div>
+
+  <!-- Confirmation Message -->
+  <div class="confirmation-message" id="confirmation-message">
+    <p>Thank you for booking with Aurelia! We will contact you shortly.</p>
+  </div>
+
+  <footer>
+    <div class="social-media-buttons">
+      <a href="https://www.facebook.com" target="_blank"><i class="ri-facebook-fill"></i></a>
+      <a href="https://www.instagram.com" target="_blank"><i class="ri-instagram-fill"></i></a>
+      <a href="https://www.tiktok.com" target="_blank"><i class="ri-tiktok-fill"></i></a>
+    </div>
+    <p style="margin-top: 10px; color: #4d3c2f;">Follow us on social media for updates and offers!</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
